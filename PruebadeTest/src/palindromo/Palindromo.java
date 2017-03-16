@@ -17,7 +17,7 @@ public class Palindromo {
 			
 		reves = reves +frase.charAt(i);
 				
-		result=frase+reves;
+		result=frase+reves;//se cambia la variable resultado por result, mirar el test por si hay fallos
 		
 		sc.close();
 		

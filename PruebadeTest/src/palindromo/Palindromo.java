@@ -2,7 +2,7 @@ package palindromo;
 
 import java.util.Scanner;
 
-public class Palindromo {//Palindromo es una palabra lo que en matematicas seria un numero capicua, pos eso
+public class Palindromo {
 
 	public static String verPalindromo (String frase){
 		
@@ -17,11 +17,11 @@ public class Palindromo {//Palindromo es una palabra lo que en matematicas seria
 			
 		reves = reves +frase.charAt(i);
 				
-		resultado=frase+reves;
+		result=frase+reves;
 		
 		sc.close();
 		
-		return resultado;
+		return result;
 		
 	}
 	
